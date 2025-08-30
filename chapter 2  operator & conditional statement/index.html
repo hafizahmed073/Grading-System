@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Student Grading System</h1>
+        <p>Enter your score below and check your grade:</p>
+
+        <input type="number" id="scoreInput" placeholder="Enter your score (0-100)">
+        <button onclick="calculateGrade()">Check Grade</button>
+
+        <div id="resultBox" class="result-box">
+            <h2 id="grade"></h2>
+            <p id="remark"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
